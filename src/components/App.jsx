@@ -5,9 +5,9 @@ import { Box } from './App.styled';
 import { Filter } from './Filter/Filter';
 import { useEffect } from 'react';
 import { useDispatch,useSelector } from 'react-redux';
-import { fetchContacts } from './redux/options';
+import { fetchContacts } from '../redux/options';
 
-import { getIsLoading,getError } from 'components/redux/selectors';
+import { getIsLoading,getError } from 'redux/selectors';
 import { Loader } from './Loader/Loader';
 export const MyCompononet = () => {
   const dispatch= useDispatch()

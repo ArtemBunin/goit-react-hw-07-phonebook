@@ -1,8 +1,8 @@
 
 import { Item, Btn, NumberText } from './ContactList.styled';
 import { useSelector,useDispatch } from 'react-redux';
-import { getFilterContacts } from 'components/redux/selectors';
-import { deleteContact } from 'components/redux/options';
+import { getFilterContacts } from 'redux/selectors';
+import { deleteContact } from 'redux/options';
 
 
 

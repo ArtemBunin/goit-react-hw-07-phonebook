@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getAllContacts } from 'components/redux/selectors';
+import { getAllContacts } from 'redux/selectors';
 
 import { Form, Input, FormBtn } from './ContactForm.styled';
-import { addContact } from 'components/redux/options';
+import { addContact } from 'redux/options';
 
 export const ContactForm = () => {
   const [name, SetName] = useState('');
